@@ -55,9 +55,9 @@ if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
 function matchpass(){  
    var firstpassword=document.getElementById("re_pass").value;  
    var secondpassword=document.getElementById("re_pass1").value; 
-     
-   if(firstpassword==secondpassword){  
    
+   if(firstpassword==secondpassword){  
+    
    return true;  
    }  
 
@@ -65,6 +65,7 @@ function matchpass(){
    //picking data and sending it to a table in local storage 
    
   
+
 
    else{  
    alert("password must be same!");  
@@ -76,13 +77,13 @@ function matchpass(){
 
 function dataread()
 {
-   event.preventDefault();
+  event.preventDefault();
    var name = document.getElementById("name").value;
    var email = document.getElementById("email").value;
-
+   console.log("running dataread fetched variables ")
    localStorage.setItem("ls_name", name);
    localStorage.setItem("ls_email",email);
-   
+   console.log("running dataread stored ");
 }
  // pushing the data of registered users to a table in index.html
 function datafetch()
