@@ -77,13 +77,15 @@ function matchpass(){
 
 function dataread()
 {
-  event.preventDefault();
+   
    var name = document.getElementById("name").value;
    var email = document.getElementById("email").value;
    console.log("running dataread fetched variables ")
    localStorage.setItem("ls_name", name);
    localStorage.setItem("ls_email",email);
    console.log("running dataread stored ");
+
+  
 }
  // pushing the data of registered users to a table in index.html
 function datafetch()
