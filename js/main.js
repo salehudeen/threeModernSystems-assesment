@@ -98,3 +98,26 @@ function datafetch()
 
 
 }
+
+//function for forgotten password
+function isEmpty(str)
+{
+ return !str.trim().length;
+}
+
+
+
+function passforgot()
+{
+   var forgot = document.getElementById("your_email").value;
+   
+  if(isEmpty(forgot))
+  {
+     alert("kindly enter the your email in the form");
+  }
+      else
+   {
+      alert("an email has been sent to " +  forgot);
+   }
+
+}
