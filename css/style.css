@@ -198,7 +198,9 @@ body {
   color: #222;
   background: #f8f8f8;
   font-weight: 400;
-  font-family: Poppins; }
+  font-family: Poppins;
+  background-image: url("1.gif");
+}
 
 .container {
   width: 900px;
