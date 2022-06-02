@@ -527,7 +527,7 @@ label.valid {
     -o-order: 2;
     -ms-order: 2; }
 
-  .signup-form, .signup-image, .signin-form, .signin-image {
+  .signup-form, .signup-image, .signin-form, .signin-image .dashboard-section{
     width: auto; }
 
   .social-login {
