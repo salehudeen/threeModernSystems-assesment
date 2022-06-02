@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/idx.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body onload="return datafetch()">
       
     <!--adding a navigation div-->
     <nav>
@@ -32,7 +32,7 @@
         </ul>
     </nav>
     <script src="js/scripts.js"></script>
-    
+    <script src="js/main.js"></script>
     <br>
     <br>
     <br>
@@ -47,12 +47,30 @@
     <p>This website is an interview for a placement position with</p>
     <p>Three Modern systems ltd </p>
     <p> this website has the following features </p>
-    <ol style="align-items:center;">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ol>
+    <ul style="align-items:center;",>
+        <li style="color:black ;">1. verify if an email is correct </li>
+        <li style="color:black ;">2. verify retyped password</li>
+        <li style="color:black ;">3. validates a registering users password</li>
+        <li style="color:black ;">4. this website is responsive </li>
+        <li style="color:black ;">5. Also we have the latest user displaed below </li>
+    </ul>
+    <br>
+    <br>
+    <table>
+        <caption>new registered users !</caption>
+     <tr>
+         <th>Name</th>
+         <th>email</th>
+         
+     </tr>
+     <tr>
+         <td><span id="nameval" style="color:black ;"></span></td>
+         <td><span id="emailval" style="color:black ;"></span></td>
+      
+     </tr>
+ </table>
+   
    </div>
+     
     </body>
 </html>

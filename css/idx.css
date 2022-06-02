@@ -18,7 +18,25 @@ nav{
     position: fixed;
     z-index: 10;
 }
+table, th, td {
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+caption{
+    color:black;
+}
+th, td {
+    padding: 10px;
 
+}
+
+th {
+    text-align: left;
+}
 /*Styling logo*/
 .logo{
     padding:1vh 1vw;
